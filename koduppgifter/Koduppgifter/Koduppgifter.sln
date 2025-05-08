@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{5E94A46C-F93D-4E86-8C68-06DA6208B595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumOfArray", "MaximumOfArray\MaximumOfArray.csproj", "{2CDC947E-E27E-40FA-A112-29160A6BF64C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E94A46C-F93D-4E86-8C68-06DA6208B595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E94A46C-F93D-4E86-8C68-06DA6208B595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E94A46C-F93D-4E86-8C68-06DA6208B595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E94A46C-F93D-4E86-8C68-06DA6208B595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDC947E-E27E-40FA-A112-29160A6BF64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDC947E-E27E-40FA-A112-29160A6BF64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDC947E-E27E-40FA-A112-29160A6BF64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDC947E-E27E-40FA-A112-29160A6BF64C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
