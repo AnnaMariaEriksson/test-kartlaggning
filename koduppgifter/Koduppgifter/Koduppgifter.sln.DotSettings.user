@@ -5,5 +5,7 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2::net9.0::Tests.Tests.Test247&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2::net9.0::Tests.Tests.Test357&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2::net9.0::Tests.MaximumOfArrayTest.TestMaximumOfArray&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::BE8C13E3-0BB1-49B3-A7AD-D1F10F9C0DC2::net9.0::Tests.MaximumOfArrayTest.TestLowestOfArray&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

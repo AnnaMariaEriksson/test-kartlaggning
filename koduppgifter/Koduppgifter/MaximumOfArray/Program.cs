@@ -1,6 +1,6 @@
 ﻿namespace MaximumOfArray;
 
-class Program
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -9,7 +9,8 @@ class Program
         List<int> parsedList = ParseStringsToInts(inputStrings);
         int maximum = FindMaximumOfArray(parsedList);
         int lowest = FindLowestOfArray(parsedList);
-        Console.Write(lowest);
+        int[] results = [maximum, lowest];
+        Console.WriteLine(string.Join(" ", results));
     }
 
     public static List<int> ParseStringsToInts(string[] numbers)
