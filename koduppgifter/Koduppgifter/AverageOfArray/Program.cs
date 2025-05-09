@@ -4,7 +4,7 @@ namespace AverageOfArray;
 
 public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         string lines = Console.ReadLine();
         List<int> averageNumbersResult = new List<int>();
@@ -12,34 +12,35 @@ public class Program
         for (int i = 0; i < int.Parse(lines); i++)
         {
             string line = Console.ReadLine();
-            string[] splittedLine = line.Split("\n");
-            List<int> parsedInts = Helpers.ParseStringsToInts(splittedLine[i]);
-            int average = GetAverageOfArray(parsedInts);
-            averageNumbersResult.Add(average);
+            List<int> parsedInts = Helpers.ParseStringsToInts(line);
+            decimal average = GetAverageOfArray(parsedInts); //decimals since we will get a non rounded number
+            averageNumbersResult.Add((int)Math.Round(average)); // had to round twice to get it to work
         }
 
         Console.WriteLine(string.Join(" ", averageNumbersResult));
 
     }
 
-    static int GetAverageOfArray(List<int> numbers)
+    public static int GetAverageOfArray(List<int> numbers)
     {
         int sum = 0;
-        int average = sum / numbers.Count;
+        int count = 0; //adding a count that checks for the 0 at the end so it is not included in the average calculation
 
         for (int i = 0; i < numbers.Count; i++)
         {
-            sum += numbers[i];
             if (numbers[i] == 0)
             {
-                break;
+                break; //if we find a 0, let's stop
             }
-            if (numbers[i] == 1)
-            {
-                return 1;
-            }
+
+            sum += numbers[i];
+            count++;
         }
 
-        return average;
+        if (count == 0)
+            return 0;
+
+        return (int)Math.Round((decimal)sum / count);
     }
+
 }

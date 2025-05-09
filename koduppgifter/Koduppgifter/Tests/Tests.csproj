@@ -21,7 +21,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\AverageOfArray\AverageOfArray.csproj" />
       <ProjectReference Include="..\FizzBuzz\FizzBuzz.csproj" />
+      <ProjectReference Include="..\HelperMethods\HelperMethods.csproj" />
       <ProjectReference Include="..\MaximumOfArray\MaximumOfArray.csproj" />
     </ItemGroup>
 
